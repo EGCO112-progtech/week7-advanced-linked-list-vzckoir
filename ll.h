@@ -138,12 +138,11 @@ void printListReverse(LLPtr currentPtr) {
 }
 
 void clearAllNodes(LLPtr *sPtr) {
-   
+
    printf("Clear all nodes\n");
 
    if (*sPtr == NULL) {
       printf("The list is already empty.\n");
-      return;
    }
 
    while (*sPtr != NULL) {
