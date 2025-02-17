@@ -150,5 +150,6 @@ void clearAllNodes(LLPtr *sPtr) {
        deletes(sPtr, (*sPtr)->id);
    }
 
+   
    printf("End of run\n");
 }
