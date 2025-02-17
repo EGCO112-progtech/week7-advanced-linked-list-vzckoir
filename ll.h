@@ -111,7 +111,7 @@ int deletes(LLPtr *sPtr, int id) {
 
 void printList(LLPtr currentPtr) {
    if (currentPtr == NULL) {
-      puts("List is empty.\n");
+      puts("List is empty.");
       return;
    }
 
@@ -124,7 +124,7 @@ void printList(LLPtr currentPtr) {
 
 void printListReverse(LLPtr currentPtr) {
    if (currentPtr == NULL) {
-      puts("List is empty.\n");
+      puts("List is empty.");
       return;
    }
    while (currentPtr->nextPtr != NULL) {
